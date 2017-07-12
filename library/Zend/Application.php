@@ -77,8 +77,6 @@ class Zend_Application
     public function __construct($environment, $options = null, $suppressNotFoundWarnings = null)
     {
         $this->_environment = (string) $environment;
-
-        require_once 'Zend/Loader/Autoloader.php';
         $this->_autoloader = Zend_Loader_Autoloader::getInstance();
         $this->_autoloader->suppressNotFoundWarnings($suppressNotFoundWarnings);
 
