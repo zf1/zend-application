@@ -1,5 +1,5 @@
 {
-	"name": "zf1/zend-application",
+	"name": "ekspress-digital/zend-application",
 	"description": "Zend Framework 1 Application package",
 	"keywords": [
 		"framework",
@@ -21,5 +21,13 @@
 	},
 	"suggest": {
 		"zf1/zend-config": "Used in special situations or with special adapters"
+	},
+	"replace": {
+		"zf1/zend-application": "^1.12"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		}
 	}
 }
